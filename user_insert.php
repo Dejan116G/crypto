@@ -7,6 +7,7 @@ $email = $_POST['email'];
 $pass = $_POST['pass'];
 $pass2 = $_POST['pass2'];
 
+//preverim, ali so podatki polni in se gesli ujemata
 if(!empty($first_name) && !empty($last_name) && !empty($email)
 && !empty($pass) && ($pass == $pass2)){
 
