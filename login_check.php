@@ -19,6 +19,9 @@ if (!empty($email) && !empty($pass)) {
             $_SESSION['admin'] = $user['admin'];
             $_SESSION['first_name'] = $user['first_name'];
             $_SESSION['last_name'] = $user['last_name'];
+
+            odziv("Dobrodošli!");
+
             header("Location: index.php");
             die();
         }

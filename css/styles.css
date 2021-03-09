@@ -10316,3 +10316,21 @@ label.star:before {
 
 
 /*oblika komentarjev*/
+
+
+
+/** Odzivi - sporočila **/
+
+#odziv {
+  color: white;
+  background-color: blue;
+  opacity: 0.2;
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  padding: 15px;
+
+}
+
+
+/** Odzivi - sporočila **/

@@ -44,6 +44,8 @@ if (move_uploaded_file($_FILES["url"]["tmp_name"], $target_file)) {
     $stmt = $pdo->prepare($query);
     $stmt->execute([$title,$target_file,$id,$_SESSION['user_id']]);
 
+    odziv("slika dodana");
+
     header("Location: cryptocurrency.php?id=$id");
     die();
 

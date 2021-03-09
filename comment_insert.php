@@ -14,6 +14,8 @@ if(!empty($id) && !empty($content)){
    $stmt->execute([$content,$user_id,$id]);
 }
 
+odziv("Komentar dodan");
+
 header("Location: cryptocurrency.php?id=$id#komentarji");
 die();
 ?>
