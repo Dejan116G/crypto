@@ -44,6 +44,7 @@ if(admin()){
         <div class="cypro_price">Treuntna cena: <span><?php echo $crypto['current_price'];?> </span></div>
         <div class="cypro_rating">Treuntna ocena: <span><?php echo round($crypto ['rating'],1);?> </span></div>
     </div>
+    </div>
     <?php
     if(admin()){
     ?>

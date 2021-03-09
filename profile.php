@@ -5,7 +5,7 @@ include_once "database.php";
 $id = $_SESSION['user_id'];
 $query = "SELECT * FROM users WHERE id = ?";
 $stmt = $pdo->prepare($query);
-$stmt->exectue([$id]);
+$stmt->execute([$id]);
 
 $user = $stmt->fetch();
 ?>
@@ -50,7 +50,7 @@ $user = $stmt->fetch();
                     <div class="control-group">
                         <div class="form-group floating-label-form-group controls mb-0 pb-2">
                             <label>Opis</label>
-                            <textarea name="description"placeholder="Vnesite svoj opis" class="form-control" rows="5"><?php echo $user['description']?><textarea><br />
+                            <textarea name="description"placeholder="Vnesite svoj opis" class="form-control" rows="5"><?php echo $user['description']?></textarea><br />
                             
                         </div>
                     </div>

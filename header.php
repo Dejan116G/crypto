@@ -46,6 +46,8 @@ include_once "session.php";
                             echo '<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
                             href="profile.php">Profil ('.$first_name.')</a></li>';
                             echo '<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                            href="users.php">Uporabniki ('.$first_name.')</a></li>';
+                            echo '<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
                             href="logout.php">Odjava ('.$first_name.')</a></li>';
                         }
                         else{
@@ -60,6 +62,9 @@ include_once "session.php";
                     
                 </ul>
             </div>
+        </div>
+        <div id="odziv">
+         Testno sporočilo
         </div>
     </nav>
     <section class="page-section mt-5">

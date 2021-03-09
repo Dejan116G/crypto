@@ -37,6 +37,7 @@ if(admin()){
               echo '</div>';
               echo '<img class="img-fluid" src="'.$row['logo'].'" alt="" />';
               echo '<h3 class="justify-content-center row align-items-center">'.$row['title'].'</h3>';
+              echo '</a>';
               echo '</div>';
               echo '</div>';
              }
